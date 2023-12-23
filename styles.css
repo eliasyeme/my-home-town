@@ -3,6 +3,7 @@ body {
     margin: 0;
     text-align: center;
     color: #20231F;
+    line-height: 1.2;
 }
 
 h1, h2, h3, h4 {
@@ -36,7 +37,6 @@ h1, h2, h3, h4 {
     border-radius: 10px;
     font-size: 18px;
     width: 420px;
-    line-height: 1.2;
     font-weight: 600;
 }
 
@@ -71,6 +71,40 @@ h1, h2, h3, h4 {
     border-radius: 50%;
 }
 
-.activity-detail{
-    line-height: 1.2;
+.guide-container {
+    height: 394px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.guide {
+    width: 400px;
+    padding: 12px;
+    border-radius: 10px;
+    border-bottom: 6px solid #20231F;
+    background: #948E75;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.guide-title {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.guide-detail {
+    font-style: italic;
+}
+
+.guide-name {
+    font-family: inherit;
+}
+.guide-img {
+    width: 180px;
+    height: 248px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-right: 18px;;
 }
