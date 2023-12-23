@@ -2,6 +2,7 @@ body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     text-align: center;
+    color: #20231F;
 }
 
 h1, h2, h3, h4 {
@@ -37,4 +38,39 @@ h1, h2, h3, h4 {
     width: 420px;
     line-height: 1.2;
     font-weight: 600;
+}
+
+.activities {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+    background: #FCC88F;
+}
+
+.activities-title {
+    font-size: 24px;
+    margin-bottom: 54px;
+}
+
+.activities-content{
+    display: flex;
+    justify-content: space-around;
+}
+
+.activity {
+    margin: 0 20px;
+    width: 200px;
+}
+
+.activity-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.activity-detail{
+    line-height: 1.2;
 }
